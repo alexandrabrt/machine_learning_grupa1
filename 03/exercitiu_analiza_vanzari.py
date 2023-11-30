@@ -13,7 +13,6 @@ data = {'Data': ['2023-11-15', '2023-11-16'],
 #     data['Produs'].append(random.choice(['Produs_A', 'Produs_B', 'Produs_C']))
 #     data['Cantitate'].append(random.randint(10, 50))
 #     data['Pret_unitar'].append(round(random.uniform(20, 100), 2))
-#
 # df = pd.DataFrame(data)
 # df.to_csv('vanzari.csv', index=False)
 values = pd.read_csv('vanzari.csv')
